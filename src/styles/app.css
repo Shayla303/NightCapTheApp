@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+body {
+  font-family: 'Handlee', cursive;
+}
+
+.night-header {
+  text-align: left;
+}
+
+.App {
+  background-color: #9F8877;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 150px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  color: #6A3E37;
+  font-family: 'Handlee', cursive;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+
+.pic-container{
+  display:flex;
+  justify-content:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+img.ui.large.image {
+  height: 500px;
+  width: 565px;
+}
+
+img.ui.big.image {
+  height: 500px;
+  width: 700px;
+}

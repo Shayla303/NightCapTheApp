@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+body {
+  font-family: 'Handlee', cursive;
+}
+
+div.ui fluid three item menu:hover {
+background: #732222;
+color: #000000;
+}
+
+
+
+a.item {
+  ::active: #732222;
+}
+
+.ui.menu.active.item{
+  background: #732222;
+  color: #000000;
+}
+
+
+.ui.menu {
+  background: #745847;
+}
