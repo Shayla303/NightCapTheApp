@@ -5,23 +5,82 @@ body {
   font-family: 'Handlee', cursive;
 }
 
-div.ui fluid three item menu:hover {
-background: #732222;
-color: #000000;
+/*Fonts*/
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+h2, h4, h5 {
+  color: #33373A;
 }
 
 
-
-a.item {
-  ::active: #732222;
+h2 {
+  margin: 15px
 }
 
-.ui.menu.active.item{
-  background: #732222;
-  color: #000000;
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h4 {
+  /* padding:15px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 
-.ui.menu {
-  background: #745847;
+a {
+  color: #FFFDF7;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  text-decoration: none;
+  vertical-align: 8px;
+}
+
+.selected:hover {
+  font-weight: 400;
+  color: #FFFDF7;
+}
+
+.icon {
+  display: inline-block;
+  height: 22px;
+  margin: 0 10px;
+  width: 20px;
+}
+
+/*Header*/
+header{
+  background-color: #053C5E;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+
+.header-bottom {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  align-content: space-around;
+  display: flex;
+  margin: 15px 0 45px 40px;
+}
+
+.nav {
+margin-right: 25px;
+opacity: 0.5;
+}
+
+.nav:hover {
+  opacity: 1;
 }

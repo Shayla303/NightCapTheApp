@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Handlee', cursive;
+  margin: 0;
 }
 
 .night-header {
@@ -9,23 +10,25 @@ body {
 }
 
 .App {
-  background-color: #9F8877;
+  background-color: #D5D0CE;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  float: right;
   height: 150px;
+  margin: 0 15px -55px 0;
 }
 
 .App-header {
-  height: 150px;
+  height: 25px;
   padding: 20px;
 }
 
 .App-title {
-  color: #6A3E37;
+  color: #0E4764;
   font-family: 'Handlee', cursive;
   font-size: 3.5em;
+  padding-top: 25px;
   text-align: center;
 }
 
@@ -39,15 +42,21 @@ body {
   justify-content:center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 img.ui.large.image {
   height: 500px;
-  width: 565px;
+  width: 590px;
 }
+
 
 img.ui.big.image {
   height: 500px;
   width: 700px;
+}
+
+.night-footer{
+  color: #0E4764;
+  height: 500px;
 }

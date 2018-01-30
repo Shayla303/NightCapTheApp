@@ -7,10 +7,8 @@ import App from './components/App';
 import NavBar from './components/NavBar';
 import Menu from './components/Menu';
 import registerServiceWorker from './registerServiceWorker';
-import { Router, Route,IndexRoute, hashHistory} from 'react-router';
-import { Link } from 'react-router-dom';
 
 
 
-ReactDOM.render(<Menu />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

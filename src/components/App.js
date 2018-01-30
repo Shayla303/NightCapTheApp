@@ -1,6 +1,6 @@
 import React, { Component , ReactDOM} from 'react';
-import logo from '../images/brownLogo.png';
-import image1 from '../images/shrimpy.jpg';
+import logo from '../images/blueLogo.png';
+import image1 from '../images/souls.jpg';
 import image2 from '../images/souls2.jpg';
 import image4 from '../images/cornbread.jpg';
 import '../styles/app.css';
@@ -34,8 +34,8 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        <h1 className="App-title">Welcome to NightCap</h1>
         <NavBar />
+        <h1 className="App-title">Let Us Feed You...</h1>
       </div>
       <div className="pic-container">
         <div className="left-pic">
@@ -46,6 +46,9 @@ class App extends Component {
         </div>
         <div className="right-pic">
         <Image src={image4} size="large"/>
+      <footer className="night-footer">
+
+      </footer>
         </div>
       </div>
     </div>

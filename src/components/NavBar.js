@@ -7,17 +7,29 @@ import { Link } from 'react-router-dom';
 
 
  class NavBar extends Component {
-     state = { activeItem: 'closest' }
-     handleItemClick = (e, {name}) => this.setState({ activeItem: name})
      render() {
-       const { activeItem } = this.state
        return (
-         <Menu text size="massive">
-           <Menu.Item name='Menu' active={activeItem === 'Menu'}
-             onClick={this.menu}/>
-             <Menu.Item name='Contact Us' active={activeItem === 'Contact Us'} onClick={this.handleItemClick} />
-             <Menu.Item name='About Us' active={activeItem === 'About Us'} onClick={this.handleItemClick} />
-           </Menu>
+         <header>
+             <div class="header-top"> </div>
+             <div class="header-bottom">
+               <nav>
+                 <div class="nav menu">
+                   <a href="#" class="selected">MENU</a>
+                 </div>
+                 <div class="nav menus">
+                   <a href="#">CONTACT US</a>
+                 </div>
+                 <div class="nav my-menus">
+                   <a href="#">ABOUT US</a>
+                 </div>
+                 <div class="nav mycheckout">
+                   <img src="" class="checkout-icon"/>
+                   <a href="#">CHECKOUT</a>
+                   </div>
+               </nav>
+               {/* <img src="images/blueLogo.png" class="logo" alt="NightCap logo" /> */}
+             </div>
+           </header>
        )
      }
    }
