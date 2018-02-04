@@ -79,7 +79,6 @@ menu10:{
   description: 'Forget Me Not Fried Chicken matched up with a homeade waffle or two',
   price: '$11.00',
   details: 'All specials come with 1 additional side,choice of bread and a small drink',
-  note:'This dish can be made w/o the sausage upon request',
   picture:'https://www.google.com/search?q=chicken+and+waffles&tbm=isch&tbs=rimg:CX8WTunoMza5IjjamKsB_165RuJ9RN34u38nY0Gxr4yvO5sJwFGPElNQrLyPSz8xcDVFGnQpDBzg8e2fsvYRCjzxQCCoSCdqYqwH_1rlG4EVWzK_1cCcA9DKhIJn1E3fi7fydgRBo3Fkmt-XxYqEgnQbGvjK87mwhFVs5T6gxrLkyoSCXAUY8SU1CsvEdZzJdLa-Ki2KhIJI9LPzFwNUUYRMPJBno7QtHAqEgmdCkMHODx7ZxGlP3BDQhOQzCoSCey9hEKPPFAIEQH7OJQSQ3zD&tbo=u&sa=X&ved=0ahUKEwi1utOCrPbYAhUMOawKHSfsArMQ9C8IHw&biw=1440&bih=695&dpr=2#imgrc=fxZO6egzNrnudM'
 },
 
