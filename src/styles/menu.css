@@ -2,13 +2,292 @@
 
 body {
   font-family: 'Handlee', cursive;
-  margin-top: 20px;
-  margin left: auto;
-  margin-right: auto;
+  margin: 0;
+  width: 100%;
 }
 
-.card-container{
-  display:flex;
-  display: inline-block;
+/*Fonts*/
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
 
+h2, h4, h5 {
+  color: #33373A;
+}
+
+
+h2 {
+  margin: 15px
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h4 {
+  /* padding:15px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+a {
+  color: #FFFDF7;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+  text-decoration: none;
+  vertical-align: 8px;
+}
+
+.selected:hover {
+  font-weight: 400;
+  color: #FFFDF7;
+}
+
+
+/*Header*/
+header{
+  background-color: #053C5E;
+}
+
+.header-top {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+
+.header-bottom {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  align-content: space-around;
+}
+
+.nav {
+margin-right: 25px;
+opacity: 0.5;
+}
+
+.nav:hover {
+  opacity: 1;
+}
+
+.logo {
+  float: right;
+  margin: 5px 25px 15px 0;
+  width: 300px;
+}
+
+#menu-box {
+  background-color: #D5D0CE;
+  height: 85vh;
+  padding: 5px;
+}
+
+.card-holder {
+  background-color: #D5D0CE;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start space-around;
+  margin-top: 20px;
+}
+
+.menu-card {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px #053C5E;
+  margin: 10px;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.menu-image1 {
+  background:url('../images/plate.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 180px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image2{
+  background:url('../images/souls2.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 187px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image3{
+  background:url('../images/meatloaf.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 180px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image4{
+  background:url('../images/friedchik.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image5{
+  background:url('../images/steaks.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image6{
+  background:url('../images/getti.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image7{
+  background:url('../images/beans.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image8{
+  background:url('../images/shrimpy3.JPG') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+.menu-image9{
+  background:url('../images/gumbo.jpg') no-repeat 0 0;
+  background-size: cover;
+  height: 177px;
+  margin: 0;
+  width: 100%;
+}
+
+
+
+.menu-overview {
+  text-align: center;
+}
+
+.menu-name{
+  padding-top: 13px;
+}
+
+
+.description {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  white-space: nowrap;
+}
+
+h4.note {
+  font-weight: 300;
+}
+
+h5.entree-details {
+  color: #161033;
+}
+
+/* button.addToCart {
+
+} */
+
+
+@media screen and (max-width: 1010px) {
+  .menu-card {
+    width: 30%;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+{
+    display: none;
+  }
+
+
+  nav {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .nav {
+    height: 40px;
+    margin-right: 0;
+  }
+
+  .header-bottom {
+    flex-direction: column-reverse;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  nav {
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 790px) {
+  .menu-card {
+    width: 45%;
+  }
+
+  .menu-description p {
+    padding: 5px 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+     {
+    height: 40px;
+    width: 40px;
+
+  }
+
+  .nav a {
+    display: none;
+  }
+
+  .card-holder {
+    justify-content: center;
+  }
+
+  .menu-card {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo {
+    width: 250px;
+  }
 }

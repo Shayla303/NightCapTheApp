@@ -3,25 +3,25 @@ import logo from '../images/blueLogo.png';
 import image1 from '../images/souls.jpg';
 import image2 from '../images/souls2.jpg';
 import image4 from '../images/cornbread.jpg';
-import '../styles/app.css';
 import { Image } from 'semantic-ui-react';
+import '../styles/app.css';
 import NavBar from './NavBar';
 import Menu from './Menu';
-import About from './About';
+// import About from './About';
 import Contact from './Contact';
-import { Router, Route,IndexRoute, hashHistory,Link } from 'react-router';
+import { Router, Route } from 'react-router';
 
 
 // ReactDOM.render(
-//   <Router history ={hashHistory}>
+//   <Router history ={Router}>
 //    <Route path="/" component={App}></Route>
 //    <Route path="navbar" component={NavBar}></Route>
 //    <Route path= "menu" component={Menu}></Route>
-//    <Route path="about" component={About}></Route>
+//    {/* <Route path="about" component={About}></Route> */}
 //    <Route path="contact" component={Contact}></Route>
 //   </Router>,
 //  );
-//
+
 
 
 
